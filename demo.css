@@ -1,0 +1,42 @@
+h1{
+    background: linear-gradient(90deg,#7eaeca,#fbc7d4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+    
+}
+.singin{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #000;
+    color: #db5678;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px gray;
+}
+.singin:hover{
+    animation: btnfade 2s;
+}
+.container{
+     min-height: 400px;
+     background-color: #7eaeca;
+    
+}
+.container img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: right;
+    filter: brightness(1.75);
+}
+@keyframes btnfade {
+    from {
+      transform: translateX(0%);
+    }
+  
+    to {
+      transform: translateX(100%);
+    }
+  }
+  
+  

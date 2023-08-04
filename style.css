@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    overflow-x: hidden;
+}
+h1{
+    text-align:center ;
+    color: #12a253;
+    text-transform: capitalize;
+    font-size:small ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     ;
+}
+h2{
+   text-align: center;
+   color: #65b515;
+   text-transform: capitalize;
+   font-size: medium;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+h3{
+    text-align: center;
+    color: #5d113b;
+    text-align:capitalize; 
+}
+h4{
+    text-align:center ;
+    color: #14638d;
+}
+.imgMain{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+    border:2px solid #9db106;
+    border-radius: 10px;
+    
+
+
+}
+.imgMain2{
+    width:600px;
+    height: 500px;
+    background-image: url('image/hyundai-motor-group-r90ZgffimHk-unsplash.jpg');
+    background-size: cover;
+    background-position: top center;
+    margin: 0 auto;
+    display: block;
+    border:2px solid #44050d;
+    border-radius:10px;
+
+}
+.imgMain3{
+    width: 300px;
+    height: 400px;
+    background-image:url("image/instagram-gb782358f0_1280.jpg") ;
+    background-size:cover ;
+    background-position: top center ;
+    margin: 0 auto ;
+    display: block ;
+    border:2px solid rgb(12, 63, 74) ;
+    border-radius:10px;
+}
+ul {
+    list-style: none;
+    color: brown;
+    margin: 10px;
+    
+}
+ul{
+    display:flex;
+}
+.icon{
+    width: 80px;
+    height: 80;
+    border-color: #44050d;
+    border-radius:50% ;
+    border-style: dotted;
+    
+}
+ul li{
+     list-style: none;
+     color:rgb(19, 93, 106);
+     margin: 10px;
+     
+}
+.icon2{
+    width:50px;
+    height: 40;
+    border-color: #5d113b;
+    border-radius: 50%;
+    border-style: dotted;
+}
+
+.btnsingup{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #de4156;
+    color: #c6ced3;
+}
+.btnlogin{
+    width: 200px;
+    height:40px ;
+    border: none;
+    border-radius:20px ;
+    background-color: #14638d;
+    color: #c6ced3;
+}
+.card{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #02232d;
+    border-radius: 10px;
+}
+.card img{
+    
+     width: 150px;
+     height: 150px;
+     border-radius: 10px;
+}       
+.card h1{
+    text-align: center;
+    color: #14638d;
+}
+
+.card button{
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #c85594;
+    color: #000;
+}
+.card p{
+    text-align: center;
+}    
+.row{
+    display: flex;
+
+}
+.col-md-4{
+    margin: 10px;
+}
+li{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
+.btnsignin{
+      margin-left: 800px ;
+      border: none;
+      border-radius: 8px;
+      color: #ffffff;
+      background-color: #000;
+}
+.container{
+    background-image: url('./image/bg.png');
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    position: relative;
+    max-width: 100% ;
+
+}
+h1{
+    font-family: 'lato',sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-right: 1000px;
+    color: #ffffff;
+    padding-top: 100px;
+     text-align: left;
+     padding-left: 40px;   
+}
+.hero-text{
+    
+    height: 40px;
+    width: 30px; 
+}
+p{
+    margin-left: 20px;
+    text-emphasis-style: initial;
+    color:#ffffff;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.btnGetStarted{
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    color: #000;
+    background-color: #ffffff;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+span{
+    border-width: 10px;
+    height: 20%;
+    width: 5px;
+    color: #000;
+}
+.grid-container{
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+}
+.card1 img{
+    height: 150px;
+    width: 250px;
+}
+.card1{
+    width: 250px;
+    height: 350px;
+    background-color: #d75c6c;
+    margin: 10px;
+}
+.card1 h3{
+     text-align: center;
+     color: #ffffff;
+}
+.card1 button{
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #cad95d;
+    color: #000;
+}
+.card1 p{
+    margin-left: 20px;
+    text-emphasis-style: initial;
+    color: #ffffff;
+}
+.card2 img{
+    height: 150px;
+    width: 250px;
+}
+.card2{
+    width: 250px;
+    height: 350px;
+    background-color: #e380e0;
+    margin: 10px;
+}
+.card2 h2{
+     text-align: center;
+     color: #ffffff;
+}
+.card2 button{
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #cad95d;
+    color: #000;
+    
+}
+.card2 p{
+    margin-left: 20px;
+    text-emphasis-style: initial;
+    color: #ffffff;
+}
+.card3 img{
+    height: 150px;
+    width: 250px;
+}
+.card3{
+    width: 250px;
+    height: 350px;
+    background-color: #596be3;
+    margin: 10px;
+}
+.card3 h2{
+     text-align: center;
+     color: #ffffff;
+}
+.card3 button{
+    
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #c0d617;
+    color: #000;
+}
+.card3 p{
+    margin-left: 20px;
+    text-emphasis-style: initial;
+    color: #ffffff;
+}
+.h11{
+     text-align: center;
+     color: #000;
+     margin-top: 50px;
+}
+hr{
+     margin: 0 auto;
+    width: 200px;
+}
